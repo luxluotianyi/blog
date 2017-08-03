@@ -47,6 +47,12 @@ p {
   line-height: 1.7em;
 }
 
+.checkbox {
+  input[type='checkbox'] {
+    width: auto;
+  }
+}
+
 /* header */
 
 .navbar-inverse {
@@ -64,6 +70,13 @@ p {
   font-weight: bold;
   &:hover {
     color: #fff;
+  }
+}
+
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
   }
 }
 
